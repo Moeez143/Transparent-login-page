@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Rubik:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+/* backgorund picture justing */
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;    
+}
+/* whole box of .container */
+.container {
+    border: 2px solid rgb(247, 163, 247);
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    border-radius: 10px;
+    background-color: rgba(38, 38, 38, 0.537);
+    height: 70%;
+}
+/* heading of .container */
+.container h1 {
+    font-family: 'Rubik', sans-serif;
+    width: 55%;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(247, 163, 247);
+    margin: 7px 10px;
+    padding: 10px;
+    color: white;
+}
+.box {
+    width: 85%;
+    border-bottom: 2px solid rgb(247, 163, 247);
+    margin: 10px 15px;
+    padding: 6px 8px;
+}
+.box i {
+    padding-left: 10px;
+    /* align-items: center; */
+    margin: 4px;
+    filter: invert(100%);
+}
+.box input {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    background: none;
+    width: 79%;
+    outline: none;
+    margin: 10px 5px;
+    font-size: 15px;
+    padding: 3px;
+}
+.btn {
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    margin: 45px 0px 0px 0px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(247, 163, 247);
+    font-size: 15px;
+    color: white;
+    background: none;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.btn:hover {
+    background-color: rgb(247, 163, 247);
+    color: black;
+    transition: 0.2s;
+}
+.check {
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    margin: 10px 0px 0px 10px;
+}
+.check label {
+    cursor: pointer;
+}
+.check input {
+    cursor: pointer;
+    border: rgb(247, 163, 247);
+}
+.other p{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.other a{
+    border: 2px solid rgb(247, 163, 247);
+    border-radius: 23px;
+    color: white;
+    padding: 8px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.other a:hover{
+    background-color: rgb(247, 163, 247);
+    transition: 0.2s;
+    color: black;
+}
